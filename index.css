@@ -1,0 +1,61 @@
+.title{
+	color : #FF0000; 
+	font-size : 40px;
+}
+.city{
+	border:1px	outset #000000;
+	width:800px;
+    height:800px;
+}
+
+.row{
+    height:40px;
+}
+
+.cell{
+	border:none;
+	width: 40px;
+    height:40px;
+	display:inline-block;
+}
+
+.car {
+	background-image: url(car-front.png); 
+	background-color: transparent; 
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	width: 20px;
+    height:20px;
+}
+
+.house{
+	    background-image: url(house.jpg); 
+    	background-color: transparent;
+		background-size: cover;
+}
+
+.road{
+	    background-image: url(road.jpg); 
+    	background-color: transparent; 
+		background-size: cover;
+		background-position: center;
+}
+
+.tree{
+	    background-image: url(tree.png); 
+    	background-color: transparent; 
+		background-size: cover;	
+}
+
+.start{
+	background-image: url(road-start.jpg); 
+}
+
+.end{
+	background-image: url(road-end.jpg); 
+}
+
+.point{
+	background-image: url(road-point.jpg); 
+}
